@@ -2,7 +2,7 @@
 # Regenerate the full locked set with: pip-compile --generate-hashes requirements.in
 # Install the locked set with:            pip install -r requirements.txt
 
-selenium==4.31.0
+selenium==4.49.0
 webdriver-manager==4.0.2
 
 # Cookie encryption at rest (see KayaAuth.save_cookies)
