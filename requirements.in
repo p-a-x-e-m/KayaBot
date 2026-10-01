@@ -3,7 +3,7 @@
 # Install the locked set with:            pip install -r requirements.txt
 
 selenium==4.31.0
-webdriver-manager==4.0.2
+webdriver-manager==4.1.2
 
 # Cookie encryption at rest (see KayaAuth.save_cookies)
 cryptography>=44.0.0
