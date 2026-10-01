@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets and credentials — never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+secrets.json
+credentials.json
+service-account*.json
+
+# KayaBot runtime data (session cookies + logs + debug screenshots)
+kaya.db
+kaya.db-journal
+kaya_monitor.log
+chromedriver.log
+*.png
+
+# Backups and database dumps
+*.bak
+*.backup
+*.sql
+*.sqlite
+*.sqlite3
+*.dump
+*.gz
+*.tar
+*.zip
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
